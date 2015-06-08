@@ -1,0 +1,33 @@
+/*DEFAULT COLORS*/
+$blue: #182630;
+$gray: #858585;
+$mint: #00ced1;
+$white: mintcream;
+
+/*MEDIUM COLORS*/
+$blue_med: #111b22;
+$gray_med: #696969;
+$mint_med: #00b0b3;
+$white_med: #DEEDEE;
+
+/*DARK COLORS*/
+$blue_dark: #090d11;
+$gray_dark: #505050;
+$mint_dark: #009699;
+$white_dark: #F5FFFA;
+
+.bg-blue {
+	background-color: $blue;
+}
+
+.bg-gray {
+	background-color: $gray;
+}
+
+.bg-mint {
+	background-color: $mint;
+}
+
+.bg-white {
+	background-color: $white;
+}

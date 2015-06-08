@@ -1,0 +1,20 @@
+@mixin transition($what, $duration, $delay) {
+	-webkit-transition: $what $duration ease-in-out $delay;
+	-o-transition: $what $duration ease-in-out $delay;
+	-moz-transition: $what $duration ease-in-out $delay;
+    transition: $what $duration ease-in-out $delay;
+}
+
+@mixin transform($what...) {
+    -webkit-transform: $what;
+    -ms-transform: $what;
+    -moz-transform: $what;
+    -o-transform: $what;
+    transform: $what;
+}
+
+@mixin userselect {
+    -webkit-user-select: none; /* Chrome/Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+}

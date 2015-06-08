@@ -1,0 +1,165 @@
+.relative {
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
+	width: 300px;
+}
+
+.square {
+	background: rgba(22, 22, 93, 0.65);
+	border-radius: 50px;
+	-webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+	height: 300px;
+	position: relative;
+	width: 300px;
+	z-index: 2;
+	
+	&.top {
+		background-image: url(../img/ic-apple.png);
+		background-position: center 25px;
+		background-repeat: no-repeat;
+		background-size: 60px;
+	}
+	
+	&:first-child {
+		z-index: 3;
+		
+		h3, h4 {
+			font-family: 'Roboto-Thin', sans-serif;
+			font-weight: 100;
+			
+			span {
+				font-family: 'Roboto', sans-serif;
+				font-weight: 500;
+			}
+		}
+		
+		h3 {
+			&:first-child {
+				padding-top: 120px;
+			}
+		}
+	}
+	
+	&.rotate {
+		position: absolute !important;
+		transform: rotate(45deg);
+		top: 0px;
+	}
+	
+	&.little {
+		background-color: inherit;
+		border-radius: 10px;
+		height: 75px;
+		position: absolute !important;
+		width: 75px;
+	}
+}
+
+.circle {
+	border-radius: 50%;
+	-webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+	height: 275px;
+	position: absolute;
+	width: 275px;
+	
+	&.little {
+		background-color: inherit;
+		border-radius: 50%;
+		height: 75px;
+		position: absolute !important;
+		width: 75px;
+	}
+	
+	&.pink {
+		background-color: rgba(245, 68, 156, 0.75);
+		left: 12.5px;
+		top: -125px;
+		z-index: 1;
+		
+		.square {
+			left: 100px;
+			top: -50px;
+		}
+	}
+	
+	&.red {
+		background-color: rgba(239, 3, 3, 0.75);
+		right: -90px;
+		top: -90px;
+		z-index: 0;
+		
+		.circle {
+			right: 0;
+		}
+	}
+	
+	&.orange {
+		background-color: rgba(255, 140, 0, 0.75);
+		right: -125px;
+		top: 25px;
+		z-index: 1;
+		
+		.square {
+			right: -50px;
+			top: 90px;
+		}
+	}
+	
+	&.yellow {
+		background-color: rgba(255, 206, 0, 0.75);
+		bottom: -90px;
+		right: -90px;
+		z-index: 0;
+		
+		.circle {
+			bottom: 0;
+			right: 0;
+		}
+	}
+	
+	&.green {
+		background: rgba(0, 206, 209, 0.75);
+		bottom: -125px;
+		left: 12.5px;
+		z-index: 1;
+		
+		.square {
+			left: 100px;
+			top: 250px;
+		}
+	}
+	
+	&.blue {
+		background-color: rgba(30, 144, 255, 0.75);
+		bottom: -90px;
+		left: -90px;
+		z-index: 0;
+		
+		.circle {
+			bottom: 0;
+			left: 0;
+		}
+	}
+	
+	&.violet {
+		background-color: rgba(102, 51, 153, 0.75);
+		left: -125px;
+		top: 25px;
+		z-index: 1;
+		
+		.square {
+			left: -35px;
+			top: 90px;
+		}
+	}
+	
+	&.purple {
+		background-color: rgba(199, 21, 133, 0.75);
+		left: -90px;
+		top: -90px;
+		z-index: 0;
+	}
+}

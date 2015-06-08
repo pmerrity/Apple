@@ -1,0 +1,114 @@
+h3,
+h4 {
+	margin: 0;
+}
+
+h3,
+h4 {
+	line-height: 1.4em;
+}
+
+li,
+span {
+	font-family: inherit;
+}
+h1 {
+//	font-size: 3em;
+	font-size: 4em;
+}
+h2 {
+//	font-size: 2.6em;
+    font-size: 3em;
+}
+h3 {
+//	font-size: 2.4em;
+	font-size: 2.1em;
+}
+h4 {
+//	font-size: 2.1em;
+	font-size: 1.8em;
+}
+h5 {
+//	font-size: 1.8em;
+	font-size: 1.6em;
+}
+h6 {
+//	font-size: 1.5em;
+	font-size: 1.4em;
+}
+p {
+	font-size: 1em;
+	letter-spacing: 0.025em;
+	margin: 0.5em 0px;
+//	max-width: 500px;
+}
+
+ul {
+	list-style-type: circle;
+	li {
+		margin-left: 2em;
+	}
+}
+a {
+	border-bottom: 1px dotted $mint;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	color: inherit;
+	cursor: pointer;
+	text-decoration: none;
+
+	&:hover,
+	&:focus {
+		color: $mint;
+	}
+	&:visited {
+		color: $gray;
+
+		&:hover {
+			color: $mint;
+		}
+	}
+}
+
+b,
+strong {
+	font-weight: bold;
+}
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+blockquote {
+	border-left: 4px solid $mint;
+	box-sizing: border-box;
+	margin: 0 1.5em;
+	padding-left: 20px;
+}
+code,
+kbd,
+tt,
+var {
+	font-family: 'Muli', sans-serif;
+	font-size: 1.4em;
+}
+.text-gray {
+	color: $gray;
+}
+.text-blue {
+	color: $blue;
+}
+.text-mint {
+	color: $mint;
+}
+.text-white {
+	color: $white;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
