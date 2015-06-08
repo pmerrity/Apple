@@ -10,21 +10,10 @@ caption, tbody, tfoot, thead, tr, th, td {
 	vertical-align: baseline;
 }
 
-/* for older browsers */
-header, section, footer, aside, nav, article, figure, figcaption {
-	display: block;
-}
-
 html,
 body {
-	font-family: 'Muli', sans-serif;
 	font-size: 100%;
 	min-height: 100%;
     overflow-x: hidden;
 	width: 100%;
-}
-
-hr {
-	border: 0;
-	height: 1px;
 }
