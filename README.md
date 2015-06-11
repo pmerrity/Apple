@@ -9,6 +9,6 @@ Recreated the Apple 2015 WWDC logo in pure CSS! And it's better :D
 
 Feel free to do whatever you want with it.
 
-Demo can be found (here)[pmerrity.github.io/Apple].
+Demo can be found [here](pmerrity.github.io/Apple).
 
 I'd appreciate it if you linked back to me (to [GitHub](https://github.com/pmerrity/Apple) or my [portfolio](http://perrymerrity.com/?utm_source=github&utm_medium=website&utm_campaign=apple), even if it's just in the code comments~). Cheers friends ^_^
